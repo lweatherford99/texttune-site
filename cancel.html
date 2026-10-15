@@ -1,0 +1,11 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TextTune</title><meta name="robots" content="noindex">
+<style>body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;font-family:-apple-system,system-ui,sans-serif;background:linear-gradient(135deg,#7b2ff7,#f107a3);color:#fff;text-align:center}
+.c{padding:32px 24px;max-width:420px}img{width:120px;height:120px;border-radius:28px;box-shadow:0 8px 30px rgba(0,0,0,.25)}
+h1{font-size:28px;margin:24px 0 12px}p{font-size:19px;line-height:1.45;opacity:.95}
+a.b{display:block;margin:28px auto 0;padding:18px 24px;background:#fff;color:#a01ad0;font-size:20px;font-weight:700;border-radius:999px;text-decoration:none;box-shadow:0 6px 20px rgba(0,0,0,.2)}</style></head>
+<body><div class="c"><img src="logo.png" alt="TextTune"><h1>No worries!</h1><p>Your preview is still in your messages.</p>
+<a class="b" id="back" href="sms:+16452067656">Back to TextTune 💬</a></div>
+<script>// Number configurable via ?to=+1XXXXXXXXXX
+var t=new URLSearchParams(location.search).get("to");if(t&&/^\+?[0-9]{7,15}$/.test(t))document.getElementById("back").href="sms:"+t;
+setTimeout(function(){location.href=document.getElementById("back").href},1500);</script></body></html>
