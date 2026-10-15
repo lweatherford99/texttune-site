@@ -362,3 +362,12 @@ main section+section{padding-top:8px}
 @media(min-width:900px){main section+section{padding-top:16px}}
 .hero+section{padding-top:20px}
 .chip{display:none!important}
+.hero{padding-bottom:20px}
+@media(min-width:960px){.hero{padding-bottom:32px}}
+.pillars{padding:0 0 8px!important}
+.pillar{display:flex;gap:14px;align-items:flex-start;padding:16px 18px}
+.pillar .icon{margin:0;width:42px;height:42px;flex:none}
+.pillar h3{font-size:17px;margin:0 0 2px}.pillar p{font-size:15px;line-height:1.45}
+@media(max-width:699px){.pillars .grid{gap:10px}}
+main .pillars+section{padding-top:36px}
+@media(min-width:900px){main .pillars+section{padding-top:64px}}
