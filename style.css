@@ -28,6 +28,7 @@ audio{width:100%;margin-top:8px}
 .grid{display:grid;gap:14px}@media(min-width:620px){.grid{grid-template-columns:1fr 1fr 1fr}}
 .price{text-align:center}.price .n{font-size:34px;font-weight:800;background:linear-gradient(135deg,var(--a),var(--b));-webkit-background-clip:text;background-clip:text;color:transparent}
 code{background:var(--card);border:1px solid var(--bd);border-radius:6px;padding:1px 6px;font-size:15px}
+.vs{display:grid;gap:12px}@media(min-width:620px){.vs{grid-template-columns:1fr 1fr}}.vs .card{margin:0}.vs .lbl{font-weight:800;font-size:14px}.ok{color:#1a9e5c}.meh{color:var(--mut)}.ex{font-style:italic;margin:6px 0 0;font-size:15px}
 .note{border-left:4px solid var(--b);background:var(--card);padding:12px 16px;border-radius:8px;margin:0 0 20px;font-size:15px}
 details.q{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:14px 16px;margin:10px 0}details.q summary{font-weight:700;cursor:pointer}
 footer{border-top:1px solid var(--bd);padding:24px 0 40px;font-size:14px;color:var(--mut);text-align:center}footer a{color:var(--mut);margin:0 6px;display:inline-block;padding:4px 0}
