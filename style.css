@@ -315,3 +315,50 @@ body{position:relative}
 .aurora i:nth-child(3){opacity:.22}
 @media(prefers-color-scheme:dark){.aurora i:nth-child(1){opacity:.38}.aurora i:nth-child(2){opacity:.28}.aurora i:nth-child(3){opacity:.14}}
 @media(min-width:960px){.chip.c2{bottom:-2%}}
+/* v4 tightening */
+section{padding:44px 0}
+@media(min-width:900px){section{padding:72px 0}}
+.sh{margin-bottom:28px}.sh p{margin-top:10px}
+@media(min-width:900px){.sh{margin-bottom:40px}}
+.kicker{margin-bottom:10px}
+.hero{padding:20px 0 36px}.hero h1{margin:16px 0 14px}.hero .w{gap:36px}.ctas{margin-top:22px}.hero .meta{margin-top:16px}
+@media(min-width:960px){.hero{padding:48px 0 56px}}
+.card{padding:18px}
+@media(min-width:900px){.card{padding:22px}}
+.card p{line-height:1.55}
+.step .sthead{display:flex;align-items:center;gap:12px;margin-bottom:10px}
+.step .icon{margin:0;width:40px;height:40px;font-size:19px;flex:none}
+.step .stn{display:block;font-size:12px;font-weight:600;color:var(--mut);letter-spacing:.02em;line-height:1.2}
+.step h3{margin:2px 0 0}
+.occ .em{margin-bottom:8px}.occ .ex{margin-top:10px;padding-top:10px}
+.icon{margin-bottom:12px}
+.tq{margin-bottom:14px}.stars{margin-bottom:8px}
+.plan{padding:22px 20px}.plan .pr{margin:12px 0 4px}.plan ul{margin:16px 0 18px}
+.faq{gap:8px}.faq summary{padding:15px 48px 15px 18px;font-size:16px}.faq summary::after{right:18px}.faq .a{padding:0 18px 16px}
+.band{padding:36px 20px;border-radius:24px}
+@media(min-width:900px){.band{padding:64px 48px}}
+.ph-head{padding:28px 0 4px}.ph-head h1{margin:14px 0 10px}
+@media(min-width:900px){.ph-head{padding:64px 0 16px}}
+.page section{padding:24px 0}
+@media(min-width:900px){.page section{padding:36px 0}}
+.prose h2{margin:32px 0 10px}.prose h3{margin:20px 0 6px}.prose li{margin:5px 0}
+footer{padding:36px 0 28px;margin-top:16px}
+.fgrid{gap:24px;grid-template-columns:1fr 1fr}.fb{grid-column:1/-1}
+@media(min-width:800px){.fgrid{grid-template-columns:1.4fr 1fr 1fr 1fr}.fb{grid-column:auto}}
+footer h4{margin-bottom:10px}footer ul{gap:8px}
+.legal{margin-top:28px;padding-top:18px}
+/* phone: conversation fills the screen */
+.phone{aspect-ratio:auto;height:auto}
+.thread{justify-content:flex-start;padding-top:10px;flex:none}
+.screen{height:auto}
+.compose{margin-top:6px}
+.anim .m2{animation-name:pop,vanish}
+.chip{display:none}
+@media(min-width:960px){.chip{display:flex}.chip.c1{left:0;top:16%}.chip.c2{right:0;bottom:14%}}
+.stack{display:grid;justify-items:start}.stack>*{grid-area:1/1}
+.stack .typing{align-self:end}
+@keyframes vanish{to{opacity:0}}
+main section+section{padding-top:8px}
+@media(min-width:900px){main section+section{padding-top:16px}}
+.hero+section{padding-top:20px}
+.chip{display:none!important}
