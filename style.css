@@ -371,3 +371,4 @@ main section+section{padding-top:8px}
 @media(max-width:699px){.pillars .grid{gap:10px}}
 main .pillars+section{padding-top:36px}
 @media(min-width:900px){main .pillars+section{padding-top:64px}}
+.plan li{align-items:baseline}
